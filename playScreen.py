@@ -36,15 +36,15 @@ class PlayScreen(QDialog):
             # self.Bot.setPixmap(pixmap)
             # sleep(0.05)
             if (self.A == "Rock"):
-                  pixmap = QPixmap('/home/zee/Documents/RockPaperScissors/img/raised-fist-emoji-by-google.png')
+                  pixmap = QPixmap('/home/zee/Documents/RockPaperScissors/img/raised-fist-emoji-by-google.png')   #change this path to your path /your-path/img/raised-fist-emoji-by-google.png
                   pixmap = pixmap.scaled(80,80)
                   self.Bot.setPixmap(pixmap)
             elif (self.A == "Paper"):
-                  pixmap = QPixmap('/home/zee/Documents/RockPaperScissors/img/hand-emoji-by-google.png')
+                  pixmap = QPixmap('/home/zee/Documents/RockPaperScissors/img/hand-emoji-by-google.png')          #change this path to your path /your-path/img/hand-emoji-by-google.png
                   pixmap = pixmap.scaled(80,80)
                   self.Bot.setPixmap(pixmap)
             elif (self.A == "Scissors"):
-                  pixmap = QPixmap('/home/zee/Documents/RockPaperScissors/img/peace-sign-emoji-by-google.png')
+                  pixmap = QPixmap('/home/zee/Documents/RockPaperScissors/img/peace-sign-emoji-by-google.png')    #change this path to/your-path/img/peace-sign-emoji-by-google.png'
                   pixmap = pixmap.scaled(80,80)
                   self.Bot.setPixmap(pixmap)
       
